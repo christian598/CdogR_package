@@ -1,0 +1,27 @@
+Package: Cdogr
+Type: Package
+Title: Replicate central dogma
+Version: 0.1.0
+Authors@R:
+  c(person(given = "Christian",
+           family = "Christensen",
+           role = c("aut", "cre"), # There must be a "cre", but there can only be one
+           email = "s223096@dtu.dk"), 
+    person(given = "Dea",
+           family = "Bajo",
+           role = "aut",
+           email = "s232105@dtu.dk"),
+    person(given = "Dilan",
+           family = "Cifci",
+           role = "aut",
+           email = "s233597@dtu.dk"),
+    person(given = "Mikkel",
+           family = "Hansen",
+           role = "aut",
+           email = "mikkelpiester@gmail.com")
+Maintainer: The package maintainer <s233597@dtu.dk>
+Description: The central dogma of molecular biology.
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
