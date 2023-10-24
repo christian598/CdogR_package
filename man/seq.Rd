@@ -7,8 +7,14 @@
 seq(seq2)
 }
 \arguments{
-\item{seq2}{}
+\item{seq2}{oih}
+}
+\value{
+oi
 }
 \description{
 Generate DNA Sequence
+}
+\examples{
+oi
 }
