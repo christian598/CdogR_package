@@ -1,6 +1,6 @@
 ---
 title: "Cdogr"
-output: rmarkdown::html_vignette
+output: rmarkdown::pdf_document
 vignette: >
   %\VignetteIndexEntry{Cdogr}
   %\VignetteEngine{knitr::rmarkdown}
