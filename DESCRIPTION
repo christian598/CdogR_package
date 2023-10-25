@@ -18,7 +18,7 @@ Authors@R:
     person(given = "Mikkel",
            family = "Hansen",
            role = "aut",
-           email = "mikkelpiester@gmail.com")
+           email = "mikkelpiester@gmail.com"))
 Maintainer: The package maintainer <s233597@dtu.dk>
 Description: The central dogma of molecular biology.
     Use four spaces when indenting paragraphs within the Description.
@@ -29,8 +29,11 @@ Depends:
     R (>= 2.10)
 RoxygenNote: 7.2.3
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
     ggplot2,
     stringr
+VignetteBuilder: knitr
