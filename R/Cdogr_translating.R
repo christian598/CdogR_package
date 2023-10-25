@@ -1,11 +1,10 @@
-#' Translating RNA codons into amino acids
+#' Translating RNA Codons to Amino Acids
 #'
-#' @param codons
+#' @param codons Takes RNA codons as input
 #'
-#' @return Amino Acid Residues
+#' @return Outputs Amino Acids
 #' @export
 #'
-#' @examples ..
 translating <- function(codons){
   transl2 <- paste0(Codon_table[codons], collapse = "")
   return(transl2)

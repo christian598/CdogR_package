@@ -1,12 +1,11 @@
 #' Visualizing Amino Acid Frequencies
 #'
-#' @param frq2 ..
+#' @param frq2 Takes amino acids as input
 #' @importFrom ggplot2 ggplot aes geom_col theme_bw theme
 #' @importFrom stringr str_split boundary str_count
 #' @return Amino Acid Frequencies
 #' @export
 #'
-#' @examples ..
 Cdogr_frequencies <- function(frq2){
   frq3 <- frq2 |>
     stringr::str_split(pattern = stringr::boundary("character"), simplify = TRUE) |>

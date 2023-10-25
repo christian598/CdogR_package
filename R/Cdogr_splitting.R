@@ -1,7 +1,7 @@
 #' Splitting RNA into Codons
 #'
-#' @param splt2 RNA
-#' @param start dfv
+#' @param splt2 RNA sequence
+#' @param start Start of the reading frame
 #'
 #' @return Returns codons
 #' @export
